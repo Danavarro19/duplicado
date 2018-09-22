@@ -1,0 +1,282 @@
+body {
+  background: #4d499a;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  height: 70vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/pexels-photo-1236678.jpeg');
+}
+
+.form-message input[type=text], .form-message input[type=email], .form-message textarea {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #dedede;
+  font-size: 2rem;
+  margin: 1em 0;
+  padding: 0.7em 0.2em;
+  margin-left: 0.2em;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222;
+  min-height: 50vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-title {
+  font-size: 2em;
+}
+
+.article-section {
+  flex: 1;
+  font-size: 1.7em;
+}
+
+.main-container {
+  width: 95%;
+  margin: 6rem auto;
+  background: #FFF;
+}
+
+.btn {
+  padding: 1em 4em;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #FFF;
+  text-transform: capitalize;
+  margin: 2em 0;
+}
+
+.btn-border-white {
+  background: none;
+  border: 3px solid #FFF;
+}
+
+.btn-fill {
+  background-image: linear-gradient(to right, #3224b0, #be5ede);
+}
+
+.box {
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 80%;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.article-image-bg {
+  border-style: cover;
+  background-image: url('../img/pexels-photo-933964.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.article {
+  min-height: 40vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-message {
+  min-height: 70vh;
+  background-image: url('../img/pexels-photo-1416945.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-subscribe {
+  min-height: 40vh;
+  background: #f9f9ff;
+  padding-bottom: 2em;
+}
+
+.article:first-child {
+  color: #5e5e5e;
+  padding-top: 2em;
+}
+
+.article:first-child span {
+  color: #000;
+}
+
+header .box {
+  height: inherit;
+  background-image: linear-gradient(to right, #3224b0, #be5ede);
+  opacity: 0.8;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+header .section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section h1 {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  margin-left: 1rem;
+  font-size: 1.9rem;
+  flex: 3;
+}
+
+.logo-section i {
+  display: block;
+  flex: 1;
+  font-size: 2.5rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+
+.article-title h1 {
+  font-weight: 50;
+  margin-top: 0;
+  padding-top: 0.67em;
+}
+
+header .section h1 {
+  font-size: 4rem;
+  line-height: 0.3em;
+  letter-spacing: 0.2em;
+  font-weight: 100;
+}
+
+header .section h3 {
+  line-height: 0.3em;
+  font-weight: 50;
+  letter-spacing: 0.5em;
+}
+
+header .section .btn {
+  margin-top: 1em;
+}
+
+.form-message .box {
+  min-height: 70vh;
+  background-image: linear-gradient(to right, #3224b0, #be5ede);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-subscribe .article-title{
+  padding-top: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.fas, .fab {
+  display: inline-block;
+  margin-right: 2em
+}
+
+.form-message .box input {
+  color: #FFF;
+}
+
+.form-message .article-title, h3 {
+  text-transform: capitalize;
+  color: #FFF;
+}
+
+.formulario  {
+  min-height: 20vh;
+}
+
+.formulario .btn {
+  margin:0;
+}
+
+.box p {
+  min-width: 35%;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+footer ul li {
+  color: #FFF;
+  font-size: 1.6em;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+footer .icons {
+  margin: 2em 0;
+  display: flex;
+  justify-content: space-around;
+  color: #FFF;
+  font-size: 1em;
+}
+
+
+.btn-field {
+  display: flex;
+}
+
+.btn-field input[type="email"] {
+  flex: 1;
+  margin: 0 1em;
+}
+
+
+.copy {
+  font-size: 1.4em;
+  color: #FFF;
+}
+
+.copy i, .copy span {
+  color: #be5ede;
+}
+
+.copy p {
+  width: 95%;
+  margin: auto;
+}
